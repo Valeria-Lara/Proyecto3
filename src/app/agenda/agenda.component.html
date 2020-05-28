@@ -1,0 +1,21 @@
+
+<table class="table table-striped table-hover">
+    <thead class="thead-dark">
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Fechas</th>
+        <th>Horas</th>
+
+    </thead>
+
+    <tbody>
+    <tr *ngFor="let agenda of agenda">
+        <td>{{agenda.id}}</td>
+        <td>{{agenda.nombre}}</td> 
+        <td>{{agenda.fechas}}</td> 
+        <td>{{agenda.horas}}</td>
+     
+    </tr>
+    </tbody>
+
+</table>

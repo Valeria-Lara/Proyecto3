@@ -1,0 +1,25 @@
+<table class="table table-striped table-hover">
+    <thead class="thead-dark">
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Evento</th>
+        <th>Hora</th>
+        <th>Lugar</th>
+        <th>mesaAsignada</th>
+
+    </thead>
+
+    <tbody>
+    <tr *ngFor="let invitados of invitados">
+        <td>{{invitados.id}}</td>
+        <td>{{invitados.nombre}}</td> 
+        <td>{{invitados.evento}}</td> 
+        <td>{{invitados.hora}}</td>
+        <td>{{invitados.lugar}}</td>
+        <td>{{invitados.mesaAsignada}}</td>
+    </tr>
+    </tbody>
+
+</table>
+
+

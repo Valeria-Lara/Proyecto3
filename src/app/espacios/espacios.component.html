@@ -1,0 +1,23 @@
+<table class="table table-striped table-hover">
+    <thead class="thead-dark">
+        <th>Id</th>
+        <th>Evento</th>
+        <th>Fechas</th>
+        <th>Horas</th>
+        <th>Cancelacion</th>
+
+    </thead>
+
+    <tbody>
+    <tr *ngFor="let espacios of espacios">
+        <td>{{espacios.id}}</td>
+        <td>{{espacios.evento}}</td> 
+        <td>{{espacios.fechas}}</td> 
+        <td>{{espacios.horas}}</td>
+        <td>{{espacios.cancelacion}}</td>
+    </tr>
+    </tbody>
+
+</table>
+
+
